@@ -12,14 +12,16 @@
 ---
 
 **Содержание:**
+* [Терминология](/Testing/Theory/Terminology.md)
 * Теория
   * [7 принципов тестирования](/Testing/Theory/7%20Principles%20Of%20Testing.md)
+  * [QA и QC](/Testing/Theory/QA%20%26%20QC.md)
+  * [Айсберг дефектов](/Testing/Theory/Iceberg%20Of%20Defects.md)
   * [Верификация и валидация](/Testing/Theory/Verification%20&%20Validation.md)
   * [Виды тестирования](/Testing/Theory/Types%20Of%20Testing.md)
-  * [QA и QC](/Testing/Theory/QA%20%26%20QC.md)
+  * [Тест-дизайн](/Testing/Theory/Test%20Design.md)
 * Документация
   * [Дефект (баг)](/Testing/Documentation/Defect.md)
   * [Чек-лист](/Testing/Documentation/Check-List.md)
   * [Чит-лист](/Testing/Documentation/Cheat-List/Cheat-List.md)
 * [Инструменты](/Tools/Table%20Of%20Contents.md)
-* [Терминология](/Testing/Theory/Terminology.md)
