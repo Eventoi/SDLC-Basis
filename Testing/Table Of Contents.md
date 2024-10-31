@@ -20,6 +20,7 @@
   * [Верификация и валидация](/Testing/Theory/Verification%20&%20Validation.md)
   * [Виды тестирования](/Testing/Theory/Types%20Of%20Testing.md)
   * [Тест-дизайн](/Testing/Theory/Test%20Design.md)
+  * [С чего начать?](/Testing/Theory/How%20To%20Start.md)
 * Документация
   * [Дефект (баг)](/Testing/Documentation/Defect.md)
   * [Чек-лист](/Testing/Documentation/Check-List.md)
