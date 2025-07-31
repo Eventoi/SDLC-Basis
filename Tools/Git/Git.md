@@ -1,13 +1,13 @@
 **Содержание:**
 * Команды
-  * [Глобальные настройки](/Testing/Tools/Git/Git.md#%D0%B3%D0%BB%D0%BE%D0%B1%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8)
-  * [Инициализация](/Testing/Tools/Git/Git.md#%D0%B8%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F)
-  * [Работа с файлами](/Testing/Tools/Git/Git.md#%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D1%84%D0%B0%D0%B9%D0%BB%D0%B0%D0%BC%D0%B8)
-  * [Коммиты](/Testing/Tools/Git/Git.md#%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D1%8B)
-  * [Ветвление и слияние](/Testing/Tools/Git/Git.md#%D0%B2%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B8-%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D0%B5)
-  * [Работа с удалённым репозиторием](/Testing/Tools/Git/Git.md#%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D1%83%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D0%BC-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B5%D0%BC)
-  * [Полезные команды](/Testing/Tools/Git/Git.md#%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B)
-  * [Просмотр информации](/Testing/Tools/Git/Git.md#%D0%BF%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8)
+  * [Глобальные настройки](/Tools/Git/Git.md#%D0%B3%D0%BB%D0%BE%D0%B1%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8)
+  * [Инициализация](/Tools/Git/Git.md#%D0%B8%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F)
+  * [Работа с файлами](/Tools/Git/Git.md#%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D1%84%D0%B0%D0%B9%D0%BB%D0%B0%D0%BC%D0%B8)
+  * [Коммиты](/Tools/Git/Git.md#%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D1%8B)
+  * [Ветвление и слияние](/Tools/Git/Git.md#%D0%B2%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B8-%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D0%B5)
+  * [Работа с удалённым репозиторием](/Tools/Git/Git.md#%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D1%83%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D0%BC-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B5%D0%BC)
+  * [Полезные команды](/Tools/Git/Git.md#%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B)
+  * [Просмотр информации](/Tools/Git/Git.md#%D0%BF%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8)
 * Применение
 
 ---
@@ -51,19 +51,7 @@ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -mul
 </pre>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-git config --list      # Показать текущую конфигурацию\
+git config --list      # Показать текущую конфигурацию
 
 
 
