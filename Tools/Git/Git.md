@@ -1,6 +1,6 @@
 **Содержание:**
 * Команды
-  * [Конфигурация](/Testing/Tools/Git/Git.md#%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D1%8F)
+  * [Глобальные настройки](/Testing/Tools/Git/Git.md#%D0%B3%D0%BB%D0%BE%D0%B1%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8)
   * [Инициализация](/Testing/Tools/Git/Git.md#%D0%B8%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F)
   * [Работа с файлами](/Testing/Tools/Git/Git.md#%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D1%84%D0%B0%D0%B9%D0%BB%D0%B0%D0%BC%D0%B8)
   * [Коммиты](/Testing/Tools/Git/Git.md#%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D1%8B)
@@ -13,24 +13,60 @@
 ---
 
 ### Глобальные настройки
-> [!NOTE]
-> git config — команда для настройки параметров Git
-> --global — настройка применяется глобально для всех репозиториев текущего пользователя
+> [!TIP]
+> ```git config``` — команда для настройки параметров Git
+> 
+> ```--global``` — настройка применяется глобально для всех репозиториев текущего пользователя
+> 
+> ```--wait``` (на Unix) или ```-wait``` (на Windows) - обязательно, иначе редактор кода сразу закроется не дождавшись редактирования сообщения коммита
+> 
+> ```-multiInst``` - открывает новый экземпляр редактора кода, даже если уже есть открытые окна
+> 
+> ```-notabbar``` - скрывает панель вкладок, чтобы открыть только один файл (удобно для ввода коммита)
+> 
+> ```-nosession``` - не загружает последнюю сессию (отключает автозагрузку ранее открытых файлов)
+> 
+> ```-noPlugin``` - отключает загрузку всех плагинов при запуске (уменьшает помехи и ускоряет запуск)
+> 
+> ```C:/.../notepad++.exe``` - полный путь указывается, если не прописана системная переменная PATH
+
+Установка имени пользователя и его email, которое будет использоваться при фиксаций изменений (коммитов)
+<pre>
+git config --global user.name "Твоё Имя"
+git config --global user.email "Твой email"
+</pre>
+
+Установка редактора кода по умолчанию
+<pre>
+git config --global core.editor "Твой редактор"
+
+Nano / Vim
+git config --global core.editor "nano" / "vim"
+
+VS Code
+git config --global core.editor "code --wait"
+
+Notepad++
+git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin -wait"
+</pre>
 
 
-Установка имени пользователя, которое будет использоваться при создании коммитов (фиксаций изменений)
-> git config --global user.name "Твоё Имя"\
 
 
 
-> git config --global user.email "Твой email"\
-> git config --global core.editor nano|vim|code  # Установить редактор\
-> git config --list      # Показать текущую конфигурацию\
 
 
 
-git config --global user.name "Eventoi" # Установка имени
-git config --global user.email "Githubt3st@mail.ru" # Установка email
+
+
+
+
+
+
+git config --list      # Показать текущую конфигурацию\
+
+
+
 git config --global core.autocrlf true # Правильный формат строк
 git config --global core.safecrlf warn # Правильный формат строк
 git config --global core.quotepath off # Установка правильной кодировки

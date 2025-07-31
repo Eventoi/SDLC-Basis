@@ -1,8 +1,7 @@
 **Содержание:**
 * Devtools
   * В РАЗРАБОТКЕ
-* Git
-  * В РАЗРАБОТКЕ
+* [Git](/Testing/Tools/Git/Git.md)
 * GraphQL
   * В РАЗРАБОТКЕ
 * Postman
